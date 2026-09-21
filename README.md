@@ -12,9 +12,12 @@
 [![Vite](https://img.shields.io/badge/Vite-5.3-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev)
 [![Tailwind](https://img.shields.io/badge/Tailwind-3.4-38BDF8?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com)
 [![React Router](https://img.shields.io/badge/React_Router-6.26-CA4245?style=for-the-badge&logo=reactrouter&logoColor=white)](https://reactrouter.com)
+[![Vercel](https://img.shields.io/badge/Vercel-Deployed-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://carfashion-orpin.vercel.app)
 [![License](https://img.shields.io/badge/License-MIT-10B981?style=for-the-badge)](./LICENSE)
 
-[Features](#-features) • [Installation](#-installation) • [Tech Stack](#-tech-stack) • [Structure](#-project-structure) • [Contributing](#-contributing)
+### 🚀 [**View Live Demo → carfashion-orpin.vercel.app**](https://carfashion-orpin.vercel.app)
+
+[Features](#-features) • [Live Demo](#-live-demo) • [Screenshots](#-screenshots) • [Installation](#-installation) • [Tech Stack](#-tech-stack) • [Structure](#-project-structure) • [Contributing](#-contributing)
 
 </div>
 
@@ -27,6 +30,16 @@
 Whether you're planning a weekend getaway, a corporate trip, or a wedding-day luxury ride, CarFashion helps you find the perfect car in seconds — not hours.
 
 > 🎓 **Note:** This is a demo project. Authentication, bookings, and reviews are stored locally in your browser via `localStorage`.
+
+---
+
+## 🌐 Live Demo
+
+### 🚀 **[carfashion-orpin.vercel.app](https://carfashion-orpin.vercel.app)**
+
+Deployed on [Vercel](https://vercel.com) with automatic deployments on every push to `main`.
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/saniya784/Carfashion)
 
 ---
 
@@ -82,6 +95,34 @@ Whether you're planning a weekend getaway, a corporate trip, or a wedding-day lu
 
 ---
 
+## 📸 Screenshots
+
+> Add screenshots to `./docs/screenshots/` and update the paths below.
+
+<div align="center">
+
+### 🏠 Homepage Hero
+![Homepage](./docs/screenshots/home.png)
+
+### 🚗 Fleet with AI Search
+![Fleet](./docs/screenshots/fleet.png)
+
+### 🎯 Car Details
+![Car Details](./docs/screenshots/car-details.png)
+
+### ⭐ Ratings & Reviews
+![Reviews](./docs/screenshots/reviews.png)
+
+### 📊 Customer Dashboard
+![Dashboard](./docs/screenshots/dashboard.png)
+
+### 🔐 Login / Sign Up
+![Auth](./docs/screenshots/auth.png)
+
+</div>
+
+---
+
 ## 🛠️ Tech Stack
 
 ### Frontend
@@ -103,6 +144,12 @@ Whether you're planning a weekend getaway, a corporate trip, or a wedding-day lu
 | **Context API** | Global state (auth, favorites, bookings, theme) |
 | **localStorage** | Client-side persistence layer |
 
+### Deployment
+
+| Service | Purpose |
+|---|---|
+| **[Vercel](https://vercel.com)** | Hosting + CDN + auto-deploy |
+
 ---
 
 ## 🚀 Installation
@@ -115,8 +162,8 @@ Whether you're planning a weekend getaway, a corporate trip, or a wedding-day lu
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/carfashion.git
-cd carfashion
+git clone https://github.com/saniya784/Carfashion.git
+cd Carfashion
 ```
 
 ### 2. Install dependencies
@@ -161,7 +208,7 @@ npm run preview
 ## 📁 Project Structure
 
 ```
-carfashion/
+Carfashion/
 ├── public/
 │   ├── favicon.svg
 │   ├── manifest.json
@@ -221,6 +268,7 @@ carfashion/
 ├── package.json
 ├── postcss.config.js
 ├── tailwind.config.js
+├── vercel.json
 ├── vite.config.js
 └── README.md
 ```
@@ -270,6 +318,25 @@ This keeps the demo **fully offline**, **privacy-friendly**, and **blazing fast*
 
 ---
 
+## 🚢 Deployment
+
+This project is deployed on **Vercel** with automatic deployments.
+
+### Deploy your own copy
+
+1. Fork this repo
+2. Go to [vercel.com/new](https://vercel.com/new)
+3. Import your fork
+4. Vercel auto-detects Vite → click **Deploy**
+
+The included `vercel.json` handles SPA routing so direct URL access works correctly.
+
+### Environment Variables
+
+This project requires **no environment variables**. All demo data is stored client-side.
+
+---
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
@@ -302,10 +369,11 @@ This project is licensed under the **MIT License** — see the [LICENSE](./LICEN
 
 ## 👨‍💻 Author
 
-**Your Name**
+**Saniya**
 
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/YOUR_USERNAME)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR_PROFILE)
+[![GitHub](https://img.shields.io/badge/GitHub-saniya784-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/saniya784)
+[![Repository](https://img.shields.io/badge/Repo-Carfashion-2563EB?style=for-the-badge&logo=git&logoColor=white)](https://github.com/saniya784/Carfashion)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-7C3AED?style=for-the-badge&logo=vercel&logoColor=white)](https://carfashion-orpin.vercel.app)
 
 ---
 
@@ -314,14 +382,19 @@ This project is licensed under the **MIT License** — see the [LICENSE](./LICEN
 - Icons by [Lucide](https://lucide.dev)
 - Car photos by [Unsplash](https://unsplash.com)
 - Fonts: [Plus Jakarta Sans](https://fonts.google.com/specimen/Plus+Jakarta+Sans) & [Instrument Serif](https://fonts.google.com/specimen/Instrument+Serif)
+- Hosting by [Vercel](https://vercel.com)
 
 ---
 
+## ⭐ Show Your Support
+
+If this project helped you or inspired you, please give it a ⭐ on GitHub — it means a lot!
+
 <div align="center">
 
-**Made with ❤️ and a lot of ☕**
+### 🚗 [**Try CarFashion Live →**](https://carfashion-orpin.vercel.app)
 
-⭐ If this project helped you, please give it a star!
+**Made with ❤️ and a lot of ☕**
 
 [⬆ Back to Top](#-carfashion)
 
