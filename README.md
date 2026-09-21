@@ -95,33 +95,6 @@ Deployed on [Vercel](https://vercel.com) with automatic deployments on every pus
 
 ---
 
-## 📸 Screenshots
-
-> Add screenshots to `./docs/screenshots/` and update the paths below.
-
-<div align="center">
-
-### 🏠 Homepage Hero
-![Homepage](./docs/screenshots/home.png)
-
-### 🚗 Fleet with AI Search
-![Fleet](./docs/screenshots/fleet.png)
-
-### 🎯 Car Details
-![Car Details](./docs/screenshots/car-details.png)
-
-### ⭐ Ratings & Reviews
-![Reviews](./docs/screenshots/reviews.png)
-
-### 📊 Customer Dashboard
-![Dashboard](./docs/screenshots/dashboard.png)
-
-### 🔐 Login / Sign Up
-![Auth](./docs/screenshots/auth.png)
-
-</div>
-
----
 
 ## 🛠️ Tech Stack
 
