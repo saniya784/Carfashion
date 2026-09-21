@@ -17,7 +17,7 @@
 
 ### 🚀 [**View Live Demo → carfashion-orpin.vercel.app**](https://carfashion-orpin.vercel.app)
 
-[Features](#-features) • [Live Demo](#-live-demo) • [Screenshots](#-screenshots) • [Installation](#-installation) • [Tech Stack](#-tech-stack) • [Structure](#-project-structure) • [Contributing](#-contributing)
+
 
 </div>
 
